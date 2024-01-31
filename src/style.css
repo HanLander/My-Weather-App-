@@ -88,6 +88,8 @@ main {
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
 }
 .weather-forecast-date {
   font-size: 16px;
@@ -95,6 +97,9 @@ main {
   opacity: 0.6;
 }
 
+.weather-forecast-icon {
+  width: 42;
+}
 .weather-forecast-temperature {
   font-size: 13px;
   color: #278a66;
